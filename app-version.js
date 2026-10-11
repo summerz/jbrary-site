@@ -1,3 +1,3 @@
 self.addEventListener('message', event => {
-  if (event.data?.type === 'GET_APP_VERSION') event.ports[0]?.postMessage({"version":"0.2.4","build":"0.2.4-1791708665629","builtAt":"2026-10-11T08:51:05.629Z"});
+  if (event.data?.type === 'GET_APP_VERSION') event.ports[0]?.postMessage({"version":"0.2.5","build":"0.2.5-1791709233604","builtAt":"2026-10-11T09:00:33.604Z"});
 });
